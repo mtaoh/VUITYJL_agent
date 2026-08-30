@@ -1,2 +1,79 @@
-# VUITYJL_agent
-VUI天眼精灵(VUTIYJL-agent)是CodeAgent+GUIAgent一体化智能框架，突破API与纯视觉识别局限，覆盖PC桌面、安卓ADB、Web/客户端UI全场景，原生支持弹窗关闭、自动登录、验证码填写、扫码及人脸认证等复杂交互，将重复性数字劳动转为无人值守自动化任务，适用于个人效率提升与企业轻量级RPA。
+<img width="76" height="91" alt="image" src="https://github.com/user-attachments/assets/c28459ee-a2bd-4c64-9a48-69a10d6b6cdc" />#### 1.平台架构介绍(Platform Architecture Introduction)
+VUI天眼精灵（VUTIYJL-agent）是一款 CodeAgent + GUIAgent 一体化智能Agent框架，直接对标大型企业GUI功能，超越市场大多数普通自动化工具仅依赖API或纯视觉识别的局限。它既能通过代码精准调用系统底层能力，又能像人类一样“看懂”并操作任意图形界面（涵盖PC桌面、ADB安卓设备及各类Web/客户端UI），同时我们对弹窗关闭、自动登录账号、自动填写验证码、扫码、人脸认证弹窗求助场景也进行了支持适配，真正实现“万物皆可操作”。该框架专为非深度编程的日常办公与业务运营场景设计，以低门槛、高覆盖的特性，将绝大多数重复性、流程化的数字劳动转化为无人值守的自动化任务，是个人效率提升与企业轻量级RPA的理想选择。 联系邮箱refuel8@163.com，12小时内必定回复(且长期有效支持消息发送), 支持bug、安全漏扫漏洞、企业或个人使用咨询交流。
+
+
+
+English description：VUI SkyEye Genie is an integrated intelligent agent framework that combines CodeAgent and GUIAgent, breaking through the limitations of common automation tools that rely solely on APIs or pure visual recognition. It can precisely invoke underlying system capabilities through code, while also "understanding" and operating any graphical interface just like a human—covering PC desktops, ADB Android devices, and various Web/client UIs. At the same time, we have adapted it to support pop-up closure, automatic login with saved credentials, automated verification code entry, QR code scanning, and face recognition pop-up assistance scenarios, truly achieving "anything can be automated." Designed for non-deep-programming daily office work and business operations, this framework features a low-threshold, high-coverage approach that transforms the vast majority of repetitive, process-based digital labor into unattended automated tasks—making it an ideal choice for personal productivity enhancement and enterprise light-weight RPA. Contact email: refuel8@163.com. Responses will be given within 12 hours (and the support is available permanently for message sending). Support is provided for bugs, security vulnerability scans, inquiries and exchanges regarding enterprise or individual use, as well as business cooperation.
+
+#### 2.使用场景部分举例(Examples of usage scenarios) 
+| 序号 | 行业领域 | 实际应用场景示例 |
+| :---: | :--- | :--- |
+| 1 | 短视频/直播 | 自动监控评论区关键词并私信获客引流 |
+| 2 | 私域销售 | 自动微信聊天跟进客户与维护销售关系 |
+| 3 | 跨境电商 | 多平台店铺商品批量上架与库存同步 |
+| 4 | 财务税务 | 跨系统自动抓取票据并完成报销单填报 |
+| 5 | 人力资源 | 多招聘平台简历自动筛选与面试邀约发送 |
+| 6 | 政务办公 | 内网审批流程自动流转与公文盖章归档 |
+| 7 | 医疗健康 | 医院HIS系统患者信息自动录入与报告生成 |
+| 8 | 教育培训 | 网课平台自动签到打卡与学习进度统计 |
+| 9 | 法律法务 | 裁判文书网类案自动检索与摘要整理 |
+| 10 | 物业管理 | 业主报修工单自动派发与回访满意度调查 |
+| 11 | 餐饮零售 | 外卖平台差评自动回复与会员优惠券发放 |
+| 12 | IT运维 | 老旧内网系统定时巡检与异常告警推送 |
+| 13 | 其他 | ...不一 一举例 |
+
+注意不适合场景：中高级以上的开发系统或软件编程不适合。其行业99%基本适用。
+
+#### 3.平台功能介绍(Platform Function Introduction)
+软件操作简单，UI简洁，拒绝一切花里胡哨UI、无效功能。一切以结果赋能为主。
+功能1.任务会话
+
+![输入图片说明](png/%E5%9B%BE%E7%89%872.png)
+
+功能2.定时任务
+
+![输入图片说明](png/%E5%9B%BE%E7%89%873.png)
+
+功能3.Skill自定义
+
+![输入图片说明](png/%E5%9B%BE%E7%89%874.png)
+
+功能4手机app远程，只适用于企业版使用....
+
+#### 4.使用场景举例(Examples of usage scenarios)
+案例1-短视频获客：打开某短视频官网，搜索"手机排行榜"视频,点开评论区,查看用户评论对这样不同手机品牌的的评论,随机抽取3位用户评论,对每个用户评论自动回应1条消息,并完成友好的互动交流。完成后把刚才3位交流的用户昵称发给钉钉群"新客户拉新"。(以下只展示部分截图)
+
+![输入图片说明](png/%E5%9B%BE%E7%89%875.png)
+
+案例2-聊天办公协作：读取桌面"电商销售"文件夹“上季度销售.xlsx”；然后打开微信，把文件发群“销售交流群”，并在群里发一条消息(对表格里面销售好的员工提出表扬)。请延迟2分钟，如果好友在群里回复，请根据消息自动回复响应内容。(以下只展示部分截图)
+
+![输入图片说明](png/%E5%9B%BE%E7%89%876.png)
+
+案例3-IT运维：帮我打开桌面shell,连接公司的服务器查看磁盘、内存的使用情况，然后截图发我邮箱，邮箱地址：rs12df****132sp.@viptmp.com
+
+![输入图片说明](png/%E5%9B%BE%E7%89%877.png)
+
+案例4-手机自动化操作：桌面已经连接好ADB手机投屏，请你操作手机，帮我打开下载目前市场最火的短视频app ,然后记性登录注册，我的手机号是130xxxx2321，如果需要发送验证码请你向我求助，登录成功后帮我发布下个人动态，标题：好久不见! ，500字内容描述。(以下只展示部分截图)
+
+![输入图片说明](png/%E5%9B%BE%E7%89%878.png)
+
+案例5-社交聊天：帮我打开桌面的社交聊天工具、进入我的好友动态，给前10条好用动态进行点赞、评论。处理完毕后，回到聊天列表，帮我下拉消息最底部，看看哪些好友已经好久没有联系了，帮我进行聊天问候，问候5位好友即可。(以下只展示部分截图)
+
+![输入图片说明](png/%E5%9B%BE%E7%89%879.png)
+
+#### 5.推荐多模态大模型(Recommend multimodal large models)
+建议使用全球排名Top10的vLLM. 不同的厂商更新模块比较快,具体自行测试官网最新版
+自定义模型需满足条件：代码编写、GUI识别、图片理解、Json响应、openAPI兼容的vLLM大模型。对模型的要求比较高,模型越好效果越好。
+
+![输入图片说明](png/%E5%9B%BE%E7%89%8710.png)
+
+#### 6.内测版激活码 (Internal test version activation code)
+内测激活码通用，使用截止20261030,后续将会发布全新版本. 激活码文件也上传，可以自行输入激活。
+
+![输入图片说明](png/%E5%9B%BE%E7%89%8711.png)
+
+#### 7.关键词(keyword)：
+GUI+code自动化、RPA机器人流程自动化、CodeAgent代码智能体、GUIAgent界面智能体、视觉识别自动化、桌面端自动化、安卓ADB自动化、Web界面自动化、弹窗自动处理、自动登录与验证码、无人值守自动化、低代码RPA 
+GUI and Code automation、RPA robotic process automation、CodeAgent intelligent agent、GUIAgent visual agent、visual recognition automation、desktop automation、Android ADB automation、Web UI automation、pop-up auto-handler、auto-login and captcha solver、unattended task automation、low-code RPA
+
+
