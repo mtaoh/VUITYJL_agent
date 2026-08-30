@@ -2,9 +2,6 @@
 VUI天眼精灵（VUTIYJL-agent）是一款 CodeAgent + GUIAgent 一体化智能Agent框架，直接对标大型企业GUI功能，超越市场大多数普通自动化工具仅依赖API或纯视觉识别的局限。它既能通过代码精准调用系统底层能力，又能像人类一样“看懂”并操作任意图形界面（涵盖PC桌面、ADB安卓设备及各类Web/客户端UI），同时我们对弹窗关闭、自动登录账号、自动填写验证码、扫码、人脸认证弹窗求助场景也进行了支持适配，真正实现“万物皆可操作”。该框架专为非深度编程的日常办公与业务运营场景设计，以低门槛、高覆盖的特性，将绝大多数重复性、流程化的数字劳动转化为无人值守的自动化任务，是个人效率提升与企业轻量级RPA的理想选择。 联系邮箱refuel8@163.com，12小时内必定回复(且长期有效支持消息发送), 支持bug、安全漏扫漏洞、企业或个人使用咨询交流。
 
 
-
-English description：VUI SkyEye Genie is an integrated intelligent agent framework that combines CodeAgent and GUIAgent, breaking through the limitations of common automation tools that rely solely on APIs or pure visual recognition. It can precisely invoke underlying system capabilities through code, while also "understanding" and operating any graphical interface just like a human—covering PC desktops, ADB Android devices, and various Web/client UIs. At the same time, we have adapted it to support pop-up closure, automatic login with saved credentials, automated verification code entry, QR code scanning, and face recognition pop-up assistance scenarios, truly achieving "anything can be automated." Designed for non-deep-programming daily office work and business operations, this framework features a low-threshold, high-coverage approach that transforms the vast majority of repetitive, process-based digital labor into unattended automated tasks—making it an ideal choice for personal productivity enhancement and enterprise light-weight RPA. Contact email: refuel8@163.com. Responses will be given within 12 hours (and the support is available permanently for message sending). Support is provided for bugs, security vulnerability scans, inquiries and exchanges regarding enterprise or individual use, as well as business cooperation.
-
 #### 2.使用场景部分举例(Examples of usage scenarios) 
 | 序号 | 行业领域 | 实际应用场景示例 |
 | :---: | :--- | :--- |
