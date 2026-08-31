@@ -70,6 +70,9 @@ VUI天眼精灵（VUTIYJL-agent）是一款 CodeAgent + GUIAgent 一体化智能
 
 ![输入图片说明](png/%E5%9B%BE%E7%89%8711.png)
 
+激活教程：
+![输入图片说明](png/图片12.png)
+
 #### 7.关键词(keyword)：
 GUI+code自动化、RPA机器人流程自动化、CodeAgent代码智能体、GUIAgent界面智能体、视觉识别自动化、桌面端自动化、安卓ADB自动化、Web界面自动化、弹窗自动处理、自动登录与验证码、无人值守自动化、低代码RPA 
 GUI and Code automation、RPA robotic process automation、CodeAgent intelligent agent、GUIAgent visual agent、visual recognition automation、desktop automation、Android ADB automation、Web UI automation、pop-up auto-handler、auto-login and captcha solver、unattended task automation、low-code RPA
