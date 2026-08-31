@@ -74,9 +74,12 @@ Custom models must satisfy these requirements: code generation capability, GUI r
 ![输入图片说明](png/%E5%9B%BE%E7%89%8710.png)
 
 #### 6.Internal Test Version Activation Code
-Universal internal‑test activation code, valid until `20261030`. A brand‑new official version will be released later. Activation‑code file is included in upload package for manual activation.
+Universal internal‑test activation code, . A brand‑new official version will be released later. Activation‑code file is included in upload package for manual activation.
 
 ![输入图片说明](png/%E5%9B%BE%E7%89%8711.png)
+
+激活教程：
+![输入图片说明](png/图片12.png)
 
 #### 7.Keywords
 GUI and Code automation、RPA robotic process automation、CodeAgent intelligent agent、GUIAgent visual agent、visual recognition automation、desktop automation、Android ADB automation、Web UI automation、pop‑up auto‑handler、auto‑login and captcha solver、unattended task automation、low‑code RPA
