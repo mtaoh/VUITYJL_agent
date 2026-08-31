@@ -23,6 +23,7 @@ VUI天眼精灵（VUTIYJL-agent）是一款 CodeAgent + GUIAgent 一体化智能
 
 #### 3.平台功能介绍(Platform Function Introduction)
 软件操作简单，UI简洁，拒绝一切花里胡哨UI、无效功能。一切以结果赋能为主。
+
 功能1.任务会话
 
 ![输入图片说明](png/%E5%9B%BE%E7%89%872.png)
