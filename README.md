@@ -65,7 +65,7 @@ VUI天眼精灵（VUTIYJL-agent）是一款 CodeAgent + GUIAgent 一体化智能
 ![输入图片说明](png/%E5%9B%BE%E7%89%8710.png)
 
 #### 6.内测版激活码 (Internal test version activation code)
-内测激活码通用，使用截止20261030,后续将会发布全新版本. 激活码文件也上传，可以自行输入激活。
+内测激活码通用，后续将会发布全新版本. 激活码文件也上传，可以自行输入激活。
 
 ![输入图片说明](png/%E5%9B%BE%E7%89%8711.png)
 
