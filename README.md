@@ -87,7 +87,9 @@ GUI and Code automation、RPA robotic process automation、CodeAgent intelligent
 ![输入图片说明](png/安装04-v2.png)
 
  **[5] 配置大模型接口** 
-注意：GUI场景对模型的要去比较高，必须km3、qwen3.8 这样高级别以上，中等以下的模型不要上了。
+ 
+注意：GUI场景对模型的要去比较高，必须km3、qwen3.8 这样高级别以上，中等以下的模型不要上了。!!!! 
+
 ![输入图片说明](png/安装05-v2.png)
 
  **[6] 接下来就可以聊天拉！！！**
