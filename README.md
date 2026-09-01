@@ -65,16 +65,31 @@ VUI天眼精灵（VUTIYJL-agent）是一款 CodeAgent + GUIAgent 一体化智能
 
 ![输入图片说明](png/%E5%9B%BE%E7%89%8710.png)
 
-#### 6.内测版激活码 (Internal test version activation code)
-内测激活码通用，后续将会发布全新版本. 激活码文件也上传，可以自行输入激活。
-
-![输入图片说明](png/%E5%9B%BE%E7%89%8711.png)
-
-激活教程：
-![输入图片说明](png/图片12.png)
-
-#### 7.关键词(keyword)：
+#### 6.关键词(keyword)：
 GUI+code自动化、RPA机器人流程自动化、CodeAgent代码智能体、GUIAgent界面智能体、视觉识别自动化、桌面端自动化、安卓ADB自动化、Web界面自动化、弹窗自动处理、自动登录与验证码、无人值守自动化、低代码RPA 
 GUI and Code automation、RPA robotic process automation、CodeAgent intelligent agent、GUIAgent visual agent、visual recognition automation、desktop automation、Android ADB automation、Web UI automation、pop-up auto-handler、auto-login and captcha solver、unattended task automation、low-code RPA
+
+#### 7.下载安装 
+ **[1] 下载安装包** 
+
+![输入图片说明](png/安装01-v4.png)
+
+ **[2] 解压安装包** 
+
+![输入图片说明](png/安装02-v2.png)
+
+ **[3] 双击打开** 
+
+![输入图片说明](png/安装03-v2.png)
+
+ **[4] 输入内测激活吗** 
+
+![输入图片说明](png/安装04-v2.png)
+
+ **[5] 配置大模型接口** 
+注意：GUI场景对模型的要去比较高，必须km3、qwen3.8 这样高级别以上，中等以下的模型不要上了。
+![输入图片说明](png/安装05-v2.png)
+
+ **[6] 接下来就可以聊天拉！！！**
 
 
