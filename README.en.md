@@ -1,85 +1,99 @@
-#### 1.Platform Architecture Introduction
-VUI SkyEye Genie (VUTIYJL‑agent) is an integrated intelligent Agent framework combining CodeAgent and GUIAgent. It directly matches the GUI capabilities of large‑enterprise‑grade solutions and overcomes the limitations of most ordinary automation tools on the market that only rely on APIs or pure visual recognition. It can accurately invoke underlying system capabilities via code, and meanwhile "perceive" and operate any graphical interface just like humans, including PC desktops, ADB‑connected Android devices, and various Web / client UIs. We also provide adaptation for scenarios such as popup closing, automatic account login, automatic captcha filling, QR‑code scanning, and face‑recognition popup assistance, truly realizing "everything can be operated".
+#### 1. Platform Architecture Overview
+VUI SkyEye Agent (VUTIYJL-agent) is an integrated intelligent agent framework combining CodeAgent and GUIAgent capabilities. It delivers enterprise-grade GUI automation functionality with significant advantages in coverage and interaction methods. The framework can both invoke system-level capabilities precisely through code and simulate human-like visual perception and interaction with various graphical interfaces (including PC desktops, ADB-connected Android devices, and Web/client-side UIs). It also provides adaption support for common scenarios such as pop-up window handling and account verification, enabling broad interface operation capabilities. Designed for non-deep-programming daily office and business operations scenarios, the framework transforms the majority of repetitive, process-oriented digital tasks into unattended automation workflows. It serves as an ideal choice for personal productivity enhancement and lightweight enterprise RPA solutions. Contact: refuel8@163.com — responses within 12 hours (long-term effective for message exchange). We welcome bug reports, security suggestions, and usage consultations.
 
-This framework is designed for daily office and business operation scenarios without deep programming requirements. Featuring low‑entry‑barrier and wide‑coverage capabilities, it converts most repetitive, procedural digital work into unattended automated tasks. It is an ideal choice for personal efficiency improvement and lightweight enterprise RPA.
+![Input image description](png/%E5%9B%BE%E7%89%871.png)
 
-Contact email: refuel8@163.com. Reply guaranteed within 12 hours (long‑term message support available). Accept bug reports, security vulnerability scanning submissions, and business / personal usage consultation & communication.
-
-![输入图片说明](png/%E5%9B%BE%E7%89%871.png)
-
-#### 2.Examples of Usage Scenarios
-
-| No. | Industry Domain | Practical Application Examples |
+#### 2. Use Case Examples by Industry
+| No. | Industry | Example Scenarios |
 | :---: | :--- | :--- |
-| 1 | Short‑video / Live‑streaming | Auto‑monitor comment‑section keywords and send private messages for customer acquisition & lead generation |
-| 2 | Private‑domain Sales | Auto WeChat chat for customer follow‑up and sales‑relationship maintenance |
-| 3 | Cross‑border E‑commerce | Batch product listing and inventory synchronization across multi‑platform stores |
-| 4 | Finance & Taxation | Cross‑system automatic bill extraction and expense‑report form filling |
-| 5 | Human Resources | Auto resume screening and interview‑invitation delivery across recruitment platforms |
-| 6 | Government‑affiliated Office | Automatic intranet approval workflow routing, official‑document stamping and archiving |
-| 7 | Healthcare | Automatic patient‑information entry and report generation for hospital HIS systems |
-| 8 | Education & Training | Auto check‑in and learning‑progress statistics for online course platforms |
-| 9 | Legal Affairs | Automatic similar‑case retrieval and summary sorting on China Judgments Online |
-| 10 | Property Management | Automatic dispatch of property‑repair tickets and satisfaction follow‑up surveys |
-| 11 | Catering & Retail | Auto reply to negative reviews and distribute member coupons on food‑delivery platforms |
-| 12 | IT Operation & Maintenance | Scheduled inspection and anomaly‑alert push for legacy intranet systems |
-| 13 | Others | ... other scenarios are not enumerated one by one |
+| 1 | Short Video / Live Streaming | Monitor comment sections for keywords and generate leads |
+| 2 | Private Domain Sales | Follow up with customers and maintain relationships via social chats |
+| 3 | Cross-Border E-Commerce | Batch list products and sync inventory across multiple platforms |
+| 4 | Finance & Taxation | Automatically capture invoices across systems and complete reimbursement forms |
+| 5 | Human Resources | Auto-filter resumes and send interview invitations across job platforms |
+| 6 | Government Administration | Automate internal approval workflows and document sealing/archiving |
+| 7 | Healthcare | Auto-enter patient information into HIS systems and generate reports |
+| 8 | Education & Training | Auto-check-in for online courses and track learning progress |
+| 9 | Legal Services | Automatically retrieve and summarize similar cases from legal databases |
+| 10 | Property Management | Auto-assign repair tickets and conduct satisfaction surveys |
+| 11 | Food & Retail | Auto-reply to negative reviews and distribute coupons on delivery platforms |
+| 12 | IT Operations | Schedule regular inspections and alert notifications for legacy internal systems |
+| 13 | Others | ...and more scenarios |
 
-⚠️ Not suitable scenarios: Not applicable for mid‑to‑high‑level development‑system work or software programming. Applicable for roughly 99% of other industries.
+Note: This framework is primarily designed for daily office and business operations scenarios. For intermediate-to-advanced development or software programming use cases, we recommend using specialized development tools in conjunction with this framework.
 
-#### 3.Platform Function Introduction
-Straightforward software operation with concise UI. No fancy UI elements or useless features. All functions focus on delivering practical outcomes.
+#### 3. Platform Features
+The software offers a simple, intuitive UI focused on core functionality and results-driven outcomes.
 
-**Function 1. Task Session**
+ **Feature 1: Task Session** 
 
-![输入图片说明](png/%E5%9B%BE%E7%89%872.png)
+![Input image description](png/%E5%9B%BE%E7%89%872.png)
 
-**Function 2. Scheduled Tasks**
+ **Feature 2: Scheduled Tasks** 
 
-![输入图片说明](png/%E5%9B%BE%E7%89%873.png)
+![Input image description](png/%E5%9B%BE%E7%89%873.png)
 
-**Function 3. Custom Skill**
+ **Feature 3: Custom Skills** 
 
-![输入图片说明](png/%E5%9B%BE%E7%89%874.png)
+![Input image description](png/%E5%9B%BE%E7%89%874.png)
 
-**Function 4. Remote Mobile App Control**
-Only available for Enterprise Edition.
+ **Feature 4: Mobile App Remote Control** 
+Available for enterprise edition only...
 
-#### 4.Usage Case Examples
-**Case 1‑Short‑video Customer Acquisition**: Access a short‑video official website, search for videos with keyword "mobile phone ranking", open the comment section, collect user comments for different mobile brands. Randomly select 3 users, automatically send one friendly interactive message to each selected user. After completion, push the nicknames of these 3 interacted users to DingTalk group "New‑Customer Lead‑Generation". (Only partial screenshots displayed below)
+#### 4. Use Case Demonstrations
+The following cases are functional demonstrations intended to showcase the framework's capabilities. In actual usage, users should ensure compliance with the terms of service and applicable laws/regulations of the relevant platforms.
 
-![输入图片说明](png/%E5%9B%BE%E7%89%875.png)
+ **Case 1 – Public Traffic Engagement** : Open a short-video website, search for videos with specified keywords, navigate to the comment section, extract several user comments, and auto-generate friendly replies to complete basic interactions. After completion, aggregate the usernames of interacted users and send them to a designated enterprise IM group (e.g., DingTalk or Feishu). (Partial screenshots shown below)
 
-**Case 2‑Chat‑based Office Collaboration**: Read spreadsheet `Last Quarter Sales.xlsx` under desktop folder "E‑commerce Sales". Open WeChat, send this file to group "Sales Communication Group", and post a group message to praise high‑performance employees recorded in the spreadsheet. Add a 2‑minute delay. If group members reply, generate automatic responses according to received messages. (Only partial screenshots displayed below)
+![Input image description](png/%E5%9B%BE%E7%89%875.png)
+ 
+**Case 2 – Collaborative File Sharing** : Read a data spreadsheet from a specified local folder, open a commonly used instant messaging application (e.g., WeChat or WeCom), send the file to a designated work group, and attach a text message based on the file content (e.g., recognizing outstanding employees). Introduce a delayed wait; if new messages appear in the group, auto-respond based on the message content. (Partial screenshots shown below)
 
-![输入图片说明](png/%E5%9B%BE%E7%89%876.png)
+![Input image description](png/%E5%9B%BE%E7%89%876.png)
 
-**Case 3‑IT Operation & Maintenance**: Launch desktop shell, connect to corporate server, check disk and memory usage status, capture screenshot and send it to mailbox: rs12df****132sp.@viptmp.com
+ **Case 3 – Server Ops Notification** : Automatically open the local terminal/Shell tool, connect to a specified server, query disk and memory usage, capture the results, and send the screenshot to a designated email address (e.g., demo_test@example.com). (Partial screenshots shown below)
 
-![输入图片说明](png/%E5%9B%BE%E7%89%877.png)
+![Input image description](png/%E5%9B%BE%E7%89%877.png)
 
-**Case 4‑Mobile Automation**: ADB mobile screen projection is already connected on desktop. Operate mobile device: download the most popular short‑video application, complete login and registration. Phone number: 130xxxx2321. Prompt me manually if verification‑code input is required. After successful login, publish a personal post. Title: `Long time no see!`, with 500‑word content body. (Only partial screenshots displayed below)
+ **Case 4 – Mobile Automation** : Through an ADB-connected screen projection, operate the phone to open a mainstream short-video application, complete the login process (phone verification code entry requires human assistance upon request), and publish a post with text and images after successful login. (Partial screenshots shown below)
 
-![输入图片说明](png/%E5%9B%BE%E7%89%878.png)
+![Input image description](png/%E5%9B%BE%E7%89%878.png)
 
-**Case 5‑Social Chat Automation**: Open desktop social‑chat application, navigate to friend feeds. Like and comment on the first 10 feed posts. After finishing, go back to chat list, scroll to message bottom, identify long‑time‑uncontacted friends, and send greeting messages to 5 selected friends. (Only partial screenshots displayed below)
+ **Case 5 – Social Interaction & Relationship Maintenance** : Open the PC version of an instant messaging application, navigate to friends' feeds, like and comment on multiple posts. Then switch to the chat list, identify contacts with no recent interaction, and automatically send greeting messages to them. (Partial screenshots shown below)
 
-![输入图片说明](png/%E5%9B%BE%E7%89%879.png)
+![Input image description](png/%E5%9B%BE%E7%89%879.png)
 
-#### 5.Recommend Multimodal Large Models
-vLLM (global Top‑10 ranked) is recommended. Vendors roll out module updates frequently; please test the latest official release on your own.
+#### 5. Recommended Multimodal Models
+We recommend using mainstream high-performance multimodal large language models (e.g., vLLM-based models). Different vendors have varying update cycles; please test and refer to official announcements for the latest version information.
 
-Custom models must satisfy these requirements: code generation capability, GUI recognition, image understanding, JSON‑format response output, OpenAPI / vLLM compatibility. High model requirements apply; better model quality brings better runtime performance.
+Custom models should meet the following criteria: code generation, GUI recognition, image understanding, JSON response handling, and openAPI compatibility. Model performance directly impacts automation effectiveness; higher-performance versions are strongly recommended.
 
-![输入图片说明](png/%E5%9B%BE%E7%89%8710.png)
+![Input image description](png/%E5%9B%BE%E7%89%8710.png)
 
-#### 6.Internal Test Version Activation Code
-Universal internal‑test activation code, . A brand‑new official version will be released later. Activation‑code file is included in upload package for manual activation.
+#### 6. Keywords
+GUI+Code Automation, RPA Robotic Process Automation, CodeAgent, GUIAgent, Visual Recognition Automation, Desktop Automation, Android ADB Automation, Web UI Automation, Pop-up Auto-Handling, Auto-Login & CAPTCHA Handling, Unattended Task Automation, Low-Code RPA
+GUI and Code automation, RPA robotic process automation, CodeAgent intelligent agent, GUIAgent visual agent, visual recognition automation, desktop automation, Android ADB automation, Web UI automation, pop-up auto-handler, auto-login and captcha solver, unattended task automation, low-code RPA
 
-![输入图片说明](png/%E5%9B%BE%E7%89%8711.png)
+#### 7. Download & Installation 
+ **[1] Download the Installation Package** 
 
-激活教程：
-![输入图片说明](png/图片12.png)
+![Input image description](png/安装01-v4.png)
 
-#### 7.Keywords
-GUI and Code automation、RPA robotic process automation、CodeAgent intelligent agent、GUIAgent visual agent、visual recognition automation、desktop automation、Android ADB automation、Web UI automation、pop‑up auto‑handler、auto‑login and captcha solver、unattended task automation、low‑code RPA
+ **[2] Extract the Installation Package** 
+
+![Input image description](png/安装02-v2.png)
+
+ **[3] Double-click to Launch** 
+
+![Input image description](png/安装03-v2.png)
+
+ **[4] Enter the Internal Testing Activation Code** 
+
+![Input image description](png/安装04-v2.png)
+
+ **[5] Configure the LLM Interface** 
+
+Note: GUI scenarios require high-performance models. We recommend using high-performance models such as km3, qwen3.8, or above for optimal results. :exclamation:  :exclamation: 
+![Input image description](png/安装05-v2.png)
+
+ **[6] Ready to Chat!!!**
